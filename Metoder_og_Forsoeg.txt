@@ -1,0 +1,23 @@
+Metoder og forsøg:
+
+2 cases:
+	Gå Lige ud
+	Gå op af rampe
+
+Lav 3 forskellige gates:
+	Trot
+	Pace
+	Bound
+Find optimal phase for forskellige phases.
+
+Evaluering af hardware+gates
+	Test forskellige fjedre styrke
+	Test benlængde
+	Test fødder
+
+Evaluering af gates:
+	Kan den bevæge sig?
+	Linær hastighed -->
+	Afvigelse fra linær rute <->
+	Energy consumption
+	Begrænsinger i frekvens/hastighed

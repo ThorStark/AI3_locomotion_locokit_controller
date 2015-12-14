@@ -1,0 +1,51 @@
+# DO NOT DELETE
+
+main.o: /usr/include/stdio.h /usr/include/features.h
+main.o: /usr/include/stdc-predef.h /usr/include/libio.h
+main.o: /usr/include/_G_config.h /usr/include/wchar.h
+main.o: ../../../utils/real_robots/locokit/LocoKitInterface.h
+main.o: /usr/include/pthread.h /usr/include/endian.h /usr/include/sched.h
+main.o: /usr/include/time.h
+main.o: ../../../utils/real_robots/locokit/ConnectionClass.h
+main.o: /usr/include/stdlib.h /usr/include/alloca.h /usr/include/string.h
+main.o: /usr/include/xlocale.h /usr/include/unistd.h /usr/include/getopt.h
+main.o: /usr/include/arpa/inet.h /usr/include/netinet/in.h
+main.o: /usr/include/stdint.h
+../../../utils/real_robots/locokit/ConnectionClass.o: ../../../utils/real_robots/locokit/ConnectionClass.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/stdio.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/features.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/stdc-predef.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/libio.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/_G_config.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/wchar.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/stdlib.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/alloca.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/string.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/xlocale.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/unistd.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/getopt.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/arpa/inet.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/netinet/in.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/stdint.h
+../../../utils/real_robots/locokit/ConnectionClass.o: /usr/include/endian.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: ../../../utils/real_robots/locokit/LocoKitInterface.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/pthread.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/features.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/stdc-predef.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/endian.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/sched.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/time.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: ../../../utils/real_robots/locokit/ConnectionClass.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/stdio.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/libio.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/_G_config.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/wchar.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/stdlib.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/alloca.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/string.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/xlocale.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/unistd.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/getopt.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/arpa/inet.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/netinet/in.h
+../../../utils/real_robots/locokit/LocoKitInterface.o: /usr/include/stdint.h

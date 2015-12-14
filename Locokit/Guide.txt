@@ -1,0 +1,44 @@
+Serial connection via putty:
+1. Insert USB cable from LocoKit controller to PC
+2. Start PuTTY on the PC
+3. Open connection to the LocoKit controller (serial, /dev/ttyUSB0, 115200)
+4. Connect battery to LocoKit controller
+5. Press the battery activation button on the LocoKit controller
+6. Turn on the LocoKit controller
+7. Log in as 'root'
+
+Connect to ad-hoc network (linux)
+1. sudo iwconfig wlan0 mode ad-hoc essid 'LocoKitController01'
+2. sudo ifconfig wlan0 up
+3. sudo ip route add 192.168.2.2 dev wlan0
+4. sudo dhclient wlan0
+5. ssh root@192.168.2.2
+
+Setup ad-hoc network on LocoKit controller
+1. add interface to /etc/network/interfaces:
+
+	auto wlan0
+	iface wlan0 inet static
+	address 192.168.2.2
+	netmask 255.255.255.0
+	wireless-mode ad-hoc
+	wireless-essid LocoKitController<#>
+
+2. reboot LokoKit controller
+
+Setup dhcp server on LocoKit controller
+1. Create configuration file /etc/udhcpd.conf
+
+	start           192.168.2.3
+	end             192.168.2.10
+	interface       wlan0
+	max_leases      8
+
+2. Create an empty leases file /var/lib/misc/udhcpd.leases
+3. Create script etc/init.d/locodhcp.sh
+
+	#!/bin/sh
+	(udhcpd /etc/udhcpd.conf)&
+
+4. run 'update-rc.d locodhcp.sh defaults 5 
+5. reboot
